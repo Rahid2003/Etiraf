@@ -16,39 +16,39 @@
       },
       "APP_ID": {
          "description": "my.telegram.org adresindən APP-ID alın.",
-         "value": "19485442"
+         "value": ""
       },
       "API_HASH": {
          "description": "my.telegram.org adresindən API-HASH alın",
-         "value": "a03fcb372b3ec4e406b5d52f84b02e53"
+         "value": ""
       },    
       "ADMIN_QRUP": {
          "description": "Etirafları təsdiqləmək üçün bir qrup yaradın. yaratdığınız botu həmin qrupa atıb admin edib qrup idini bura yazın",
-         "value": "-1001742460842"
+         "value": ""
       },      
       "ETIRAF_QRUP": {
          "description": "Təsdiqlədiyiniz etiraf paylaşılacaq kanal/qrup idini yazın",
-         "value": "-1001613340352"
+         "value": ""
       },
       "LOG_QRUP": {
          "description": "Bu qrupa botunuz giriş çıxış bilgiləri və xüsusi gizli məlumatlar göndərəcək bu qrupda yalnız özünüz olun",
-         "value": "-1001839548162"
+         "value": ""
       },
       "kanal": {
          "description": "Etiraflar paylaşılacaq kanal/qrup linkini bura yazın @ işarəsi olmadan",
-         "value": "Cenublar"
+         "value": ""
       },
       "BOT_AD": {
          "description": "Botun usernamesini bura yazın @ işarəsi ilə",
-         "value": "CZ_Etiraf_Bot"
+         "value": ""
       },
       "sahib": {
          "description": "Bura öz usernamenizi yazın @ işarəsi olmadan",
-         "value": "Rahid_2003"
+         "value": ""
       },      
       "support": {
          "description": "Bura support qrupunuz/kanalınız varsa @ işarəsi olmadan yazın yoxdusa olduğu kimi buraxın",
-         "value": "qruzdaa"
+         "value": ""
       },
       "startmesaj": {
          "description": "Bota start verilən zaman yazılan mesaj",
