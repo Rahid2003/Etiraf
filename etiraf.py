@@ -110,7 +110,7 @@ async def anonim(event):
     async for usr in client.iter_participants(event.chat_id):
      gonderen = f"[{usr.first_name}](tg://user?id={usr.id})"
      etiraf_eden = "Anonim"
-     yeni_etiraf = await client.send_message(admin_qrup, f"📣 **Yeni etiraf**\n\n🗣️ **Etiraf edən -** {etiraf_eden} \n📜 **Etirafı -** {mesaj} \n\n📣 Sizdə Etirafınızı {botad}-a yaza bilərsiniz")
+     yeni_etiraf = await client.send_message(admin_qrup, f"📣 **Yeni etiraf**\n\n🗣️ **Etiraf edən -** {etiraf_eden} \n📜 **Etirafı -** {mesaj} \n\n💌 Etirafınızı {botad}-a yaza bilərsiniz")
      tesdiq = await yeni_etiraf.reply("Etiraf təsdiqlənsin ?", buttons=(
                       [
                        Button.inline("✅ Təsdiqlə", data="tesdiq"
@@ -122,7 +122,7 @@ async def anonim(event):
     await client.send_message(log_qrup, f"ℹ️ {gonderen} __Anonim etiraf yazdı__")
     await event.edit(f"{gonderildi}", buttons=(
                       [
-                       Button.inline("💌 Yeni etiraf", data="etiraf"),
+                       Button.inline("💌 Yeni Etiraf", data="etiraf"),
                        Button.inline("🏠 Ana Səhifə", data="start")
                       ]
                     ),
@@ -136,7 +136,7 @@ async def aciq(event):
     global tesdiq
     async for usr in client.iter_participants(event.chat_id):
      etiraf_eden = f"[{usr.first_name}](tg://user?id={usr.id})"
-     sonluq = f"\n💌 Etirafınızı {botad}-a yaza"
+     sonluq = f"\n💌 Etirafınızı {botad}-a yaza bilərsiniz"
      yeni_etiraf = await client.send_message(admin_qrup, f"📣 **Yeni etiraf**\n\n🗣️ **Etiraf edən -** {etiraf_eden} \n📜 **Etirafı -** {mesaj} \n{sonluq}")
      tesdiq = await yeni_etiraf.reply("Etiraf təsdiqlənsin ?", buttons=(
                       [
@@ -149,7 +149,7 @@ async def aciq(event):
     await client.send_message(log_qrup, f"ℹ️ {etiraf_eden} __Açıq etiraf yazdı__")
     await event.edit(f"{gonderildi}", buttons=(
                       [
-                       Button.inline("💌 Yeni etiraf", data="etiraf"),
+                       Button.inline("💌 Yeni Etiraf", data="etiraf"),
                        Button.inline("🏠 Ana Səhifə", data="start")
                       ]
                     ),
